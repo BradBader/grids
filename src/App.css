@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  /* width: 100%; */
+  height: 100%;
+  display:  grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(6, 150px);
+  grid-gap: 1em;
+}
+
+.wrapper >div {
+  background-color: grey;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border: solid 5px purple;
+}
+
+.two {
+  grid-area: 1 / 1 / -1 / 4;
+  opacity: .5;
+}
+
+.three {
+  background-color: blue;
+  grid-area: 1/1/2/2
+}
+
+.ten {
+  background-color: red;
+  grid-area: 3/3/-1/-1;
+  opacity: .8;
+}
+
+.seven {
+  grid-area: 3/3/5/5
+}
+
+.six {
+  grid-area: 4/4/4/4
+}
+
+.nine {
+  grid-area: 5/5/6/6
+}
