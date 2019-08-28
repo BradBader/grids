@@ -19,6 +19,7 @@ html {
   border: solid 5px purple;
 }
 
+
 .two {
   grid-area: 1 / 1 / -1 / 4;
   opacity: .5;
@@ -33,10 +34,11 @@ html {
   background-color: red;
   grid-area: 3/3/-1/-1;
   opacity: .8;
+  color: red;
 }
 
 .seven {
-  grid-area: 3/3/5/5
+  grid-area: 3/3/4/5
 }
 
 .six {
